@@ -22,7 +22,7 @@ function App() {
   function getMapDistance(startingAddress, endingAddress) {
     setCalculated(false)
     setCalculating(true)
-    const apiKey = "AIzaSyDvU73m2P_az-q0wMbXE0282g3OoJbX19A"
+    const apiKey = "OOPS EXPOSED AN API KEY BUT I REFRESHED IT"
     const path = "https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins=" 
     const uri = path + encodeURI(startingAddress) +
       "&destinations=" + encodeURI(endingAddress) +
